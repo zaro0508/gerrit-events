@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.9.4 - 2016-02-29
+Added methods to get a read only view of registered listeners [pull 49](https://github.com/sonyxperiadev/gerrit-events/pull/49)
+
+## 2.9.3 - 2015-10-07
+Fixed a Java 6 compatibility issue introduced in 2.9.2
+
+Added the coming `updated` attribute to Approval [pull 48](https://github.com/sonyxperiadev/gerrit-events/pull/48)
+
+Added ```toString()``` methods to ```RefReplicated``` and ```RefReplicationDone``` to help in debugging [pull 47](https://github.com/sonyxperiadev/gerrit-events/pull/47)
+
 ## 2.9.2 - 2015-09-14
 [JENKINS-12690](https://issues.jenkins-ci.org/browse/JENKINS-12690) Fixed SSH Key passphrase validation [pull 45](https://github.com/sonyxperiadev/gerrit-events/pull/45)
 
